@@ -20,4 +20,28 @@ $$\text{For } \lambda = 3:$$
 
 Performing this process with a sufficient number of iterations results with a discrete graphic of a nephroid with $\lambda - 1$ cusps. For example
 
-$\lambda = 2; n = 64:$
+$\lambda = 2; \ n = 64:$
+
+![](https://github.com/alfredo-reevo/nephroid-multipliers/blob/main/gifs/n=64,%20lambda%20=%202,%20c=c0.gif?raw=true)
+
+With $\lambda = 2$, we can see that the shape generated will always be a cardioid (a nephroid with $1$ cusp). 
+
+Increasing the number of points, the shape becomes more defined (subject to compression):
+
+$\lambda = 2; \ n = 128:$
+![](https://github.com/alfredo-reevo/nephroid-multipliers/blob/main/gifs/n=128,%20lambda%20=%202,%20c=c0.gif?raw=true)
+
+$\lambda = 2; \ n = 256:$
+![](https://github.com/alfredo-reevo/nephroid-multipliers/blob/main/gifs/n=256,%20lambda%20=%202,%20c=c0.gif?raw=true)
+
+### Colour Schemes
+To showcase another example with a different value of $\lambda,$ I also implemented a collection of colour matrices which alter the colour of the background, edges and points.
+
+$\lambda = 6; \ n = 64:$
+![](https://github.com/alfredo-reevo/nephroid-multipliers/blob/main/gifs/n=64,%20lambda%20=%206,%20c=c3.gif?raw=true)
+
+$\lambda = 6; \ n = 128:$
+![](https://github.com/alfredo-reevo/nephroid-multipliers/blob/main/gifs/n=128,%20lambda=6,%20c=c3.gif?raw=true)
+
+$\lambda = 6; \ n = 256:$
+![](https://github.com/alfredo-reevo/nephroid-multipliers/blob/main/gifs/n=256,%20lambda%20=%206,%20c=c3.gif?raw=true)
