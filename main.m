@@ -1,11 +1,11 @@
 clear
 clc
 
-animate = true;
+animate = false;
 transparentBackground = false;
 R = 1;           % Circle Radius
-n = 256;          % number of points
-multiplier = 2;  % graph of multiples to plot
+n = 128;          % number of points
+multiplier = 3;  % graph of multiples to plot
 iterations = n-1;
 
 t = linspace(0, 2*pi, 100);
@@ -37,8 +37,20 @@ c3 = [ 82/255,  42/255,  39/255;
 c4 = [ 82/255, 183/255, 136/255;
       178/255, 211/255, 168/255;
       237/255, 229/255, 166/255];
+c5 = [ 76/255,  91/255,  92/255;
+      219/255,  84/255,  97/255;
+      253/255, 231/255,   1/255];
+c6 = [ 37/255,   0/255, 136/255;
+      243/255, 243/255, 243/255;
+      252/255, 186/255,   4/255];
+c7 = [ 34/255,  34/255,  34/255;
+      255/255, 255/255, 255/255;
+      132/255, 220/255, 198/255];
+c8 = [ 21/255, 127/255,  31/255;
+      160/255, 234/255, 222/255;
+       29/255,  38/255,  59/255];
 
-C = c0;
+C = c7;
 
 % Initialising Points Array
 for p = 1:n
